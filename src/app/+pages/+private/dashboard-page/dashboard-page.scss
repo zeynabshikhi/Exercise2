@@ -1,0 +1,38 @@
+P{
+    text-align: center;
+}
+#banner{
+background-color: rgb(168, 245, 204);
+color: rgb(15, 13, 12);
+font-weight: bold;
+font-size: 1.5em;
+text-shadow: 2px 2px 4px rgb(8, 219, 242);
+text-align: center;
+padding: 1.5em;
+
+}
+#menu{
+    display: flex;
+    padding: 0.5em;
+    background-color: rgb(237, 202, 215);
+    gap:0.3em;
+   a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba;
+    background-color:rgb(223, 99, 132);
+    border-radius: 0.2em;
+    padding: 0.5em;
+    margin: 0.5em;
+    min-width: 80px;
+    text-align: center;
+
+   }
+   a:hover{
+    background-color: rgb(180, 72, 144);
+    color: cornsilk;
+   }
+   .divider{
+    flex: 1 1 auto ;
+   }
+}

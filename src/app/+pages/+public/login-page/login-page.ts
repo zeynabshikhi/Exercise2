@@ -13,10 +13,10 @@ export class LoginPage {
   password:string='';
   remember:boolean=false;
   message:string='';
-  router=inject(Router);
+  router=inject(Router);//دراینجا به روتر انگولار احتیاج داریم
 test(){
   if (this.username=='admin' && this.password=='admin') {
-    this.router.navigateByUrl('/private/dashboard');
+    this.router.navigateByUrl('/private');
   }else{
     this.message='نام کاربری یا کلمه عبور صحیح نیست'
   }

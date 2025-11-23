@@ -9,19 +9,22 @@
     border: 1px solid palevioletred;
     border-radius: 0.3em;
     padding: 1em;
-    width: 250px;
-    box-shadow: 0 0 1em 1em pink;
+    box-shadow: 0 0 0.3em 0em pink;
     div{
-        margin: 0.4em;
+        margin: 0.3em;
         label{
-        display:block;
+        display: block;
     
         }
     }
-    input{
-       width: 100%;
-       padding: 0.3em; 
-       box-sizing: border-box;
+    button[display]{
+background-color: antiquewhite;
+    }
+    .message{
+        background-color: rgba(255, 117, 177, 0.24);
+        padding: 0.6;
+        border-radius: 0.4;
+        text-align: center;
     }
     button{
         background-color: rgb(183, 74, 95);

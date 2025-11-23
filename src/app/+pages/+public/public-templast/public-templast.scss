@@ -1,23 +1,23 @@
 #banner{
-background-color: rgb(245, 168, 191);
+background-color: rgb(245, 108, 149);
 color: rgb(15, 13, 12);
 font-weight: bold;
 font-size: 1.5em;
-text-shadow: 2px 2px 4px rgb(242, 8, 47);
+text-shadow: 2px 2px 4px rgba(231, 87, 111, 0.575);
 text-align: center;
 padding: 1.5em;
 
 }
 #menu{
     display: flex;
-    padding: 0.5em;
-    background-color: rgb(237, 202, 215);
+    padding: 0.3em;
+    background-color: rgb(196, 140, 160);
     gap:0.3em;
    a{
     text-decoration: none;
     color: white;
     background-color: rgba;
-    background-color:rgb(223, 99, 132);
+    background-color:rgb(247, 160, 183);
     border-radius: 0.2em;
     padding: 0.5em;
     margin: 0.5em;
@@ -25,10 +25,10 @@ padding: 1.5em;
     text-align: center;
 
    }
-   a:hover{
-    background-color: rgb(180, 72, 144);
+  // a:hover{
+    background-color: rgb(248, 203, 237);
     color: cornsilk;
-   }
+   //}
    .divider{
     flex: 1 1 auto ;
    }
