@@ -15,7 +15,7 @@ export class LoginPage {
   message:string='';
   router=inject(Router);//دراینجا به روتر انگولار احتیاج داریم
 test(){
-  if (this.username=='admin' && this.password=='admin') {
+  if (this.username=='ava' && this.password=='ava') {
     this.router.navigateByUrl('/private');
   }else{
     this.message='نام کاربری یا کلمه عبور صحیح نیست'
